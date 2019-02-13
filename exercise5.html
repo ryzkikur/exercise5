@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>exercise5</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<title>exercise5</title>
+</head>
+<body>
+	<div class="container">
+		<h2>CONTOH FORM</h2>
+		<hr>
+		<form action="https://httpbin.org/post" method="POST">
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    	<input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+		   			 <small id="emailHelp" class="form-text text-muted"></small>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		   		<input type="password" class="form-control" name="password" id="exampleInputPassword1">
+		  </div>
+		  <div class="form-group">
+		  	<label for="name">Nama</label>
+		  		<input type="text" class="form-control" name="nama" id="name">
+		  </div>
+		  <div class="form-check">
+			  <input class="form-check-input" type="radio" name="laki_Laki" id="exampleRadios1" value="option1" checked>
+			  <label class="form-check-label" for="exampleRadios1">
+			    Laki-Laki
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="perempuan" id="exampleRadios2" value="option2">
+			  <label class="form-check-label" for="exampleRadios2">
+			    Perempuan
+			  </label>
+			</div>
+			  <div class="form-group pt-5">
+			    <label for="exampleFormControlSelect1">Example select</label>
+			    <select class="form-control" name="pekerjaan" id="exampleFormControlSelect1">
+			      <option>Pelajar/Mahasiswa</option>
+			      <option>Pegawai Swasta</option>
+			      <option>Wiraswasta</option>
+			    </select>
+			</div>
+			<label for="biodata">Biodata Diri</label>
+			 <div class="form-group">
+			    <textarea class="form-control" name="biodata" id="exampleFormControlTextarea1" rows="3"></textarea>
+			 </div>
+			 <div class="button">
+			 	<button type="submit" class="btn btn-success">Kirim</button>
+			 </div>
+		</form>
+	</div>
+</body>
+</html>
